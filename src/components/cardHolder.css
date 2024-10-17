@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cardHolder-container{
+    height: auto;
+    padding: 0.7em 1em;
+    background-color: rgb(241,241,241);
+    
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rightCard{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    padding: 1em; 
+}
+
+.rightCard .card .first{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/229/271/635/suits-black-background-hitman-video-games-wallpaper-preview.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    padding: 1.3em;
+    margin-bottom: 2em;
+    border-radius: 0.3%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.rightCard .card .first .heading{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 0.5em;    
+}
+
+.inspiration-imgs{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.inspiration-imgs .img{
+    height: 15em;
+    width: 100%;
+    margin-bottom: 1em;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inspiration-imgs .img-1{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/327/132/919/ian-somerhalder-actor-celebrity-brunette-wallpaper-preview.jpg");
+    
+}
+.inspiration-imgs .img-2{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/854/131/770/women-brunette-face-hair-in-face-wallpaper-preview.jpg");
+}
+.inspiration-imgs .img-3{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/384/775/736/shah-rukh-khan-actor-look-brunette-wallpaper-preview.jpg");
+}
+.inspiration-imgs .img-4{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/775/520/951/women-model-portrait-face-wallpaper-preview.jpg");
+}
+
+.icons{
+    display: flex;
+    font-size: 2em;
+    justify-content: space-around;
+}
+
+.icons li{
+    list-style-type: none;
+}
+
+.icons li:hover{
+    opacity: 0.6;
+}
+
